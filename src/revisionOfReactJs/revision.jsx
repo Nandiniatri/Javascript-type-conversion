@@ -2,7 +2,6 @@ const RevisionOfReact = () => {
     return(
         <>
             <h1>Revision</h1>
-            
         </>
     )
 }
