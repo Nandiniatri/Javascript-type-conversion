@@ -4,3 +4,6 @@ const RevisionOfReact = () => {
         </>
     )
 }
+
+
+export default RevisionOfReact;
