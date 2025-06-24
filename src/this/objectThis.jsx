@@ -28,3 +28,5 @@ const user = { name: "Nandini" };
 const boundShow = show.bind(user);
 boundShow();
 
+
+
