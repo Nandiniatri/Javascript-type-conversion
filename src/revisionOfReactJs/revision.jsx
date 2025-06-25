@@ -1,5 +1,6 @@
 import ReactMemo from "./reactMemo/ReactMemo";
 import TabComponents from "./tabComponent/Tab";
+import Timer from "./useEffect/Timer";
 import Counter from "./useState/Counter";
 
 const RevisionOfReact = () => {
@@ -9,6 +10,7 @@ const RevisionOfReact = () => {
             {/* <ReactMemo /> */}
             <TabComponents />
             <Counter />
+            <Timer />
         </>
     )
 }
