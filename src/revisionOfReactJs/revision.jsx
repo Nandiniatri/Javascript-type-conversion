@@ -10,7 +10,7 @@ const RevisionOfReact = () => {
     return (
         <>
             <h1>Revision Of React Js</h1>
-            {/* <ReactMemo /> */}
+            <ReactMemo />
             <TabComponents />
             <Counter />
             <Timer />
