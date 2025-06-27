@@ -25,7 +25,7 @@ const FetchData = () => {
         <div>
             {data.map((itm) => {
                 return (
-                    <div>
+                    <div key={itm.id}>
                         <p>{itm.title}</p>
                     </div>
                 )
