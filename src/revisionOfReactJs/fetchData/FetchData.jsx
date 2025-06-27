@@ -7,7 +7,9 @@ const FetchData = () => {
         try {
             const response = await fetch('https://dummyjson.com/products');
             const result = await response.json();
-            setData(result);
+            console.log(result);
+            
+            setData(result.products);
         } catch (error) {
             console.log('Network is slow');   
         }
@@ -17,15 +19,17 @@ const FetchData = () => {
         fetchProduct();
     },[])
 
+
+
     return (
         <div>
-            {data.map((itm) => {
+            {/* {data.map((itm) => {
                 return (
                     <div>
                         <p>{itm}</p>
                     </div>
                 )
-            })}
+            })} */}
         </div>
     )
 }

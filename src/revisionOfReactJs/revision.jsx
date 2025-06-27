@@ -1,3 +1,4 @@
+import FetchData from "./fetchData/FetchData";
 import Greeting from "./props/Greeting";
 import ReactMemo from "./reactMemo/ReactMemo";
 import TabComponents from "./tabComponent/Tab";
@@ -19,6 +20,7 @@ const RevisionOfReact = () => {
             <Greeting title={title} />
             <MakeTable />
             <TableOfTwo />
+            <FetchData />
         </>
     )
 }
