@@ -1,12 +1,13 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const FetchData = () => {
-
+    const [data , setData] = useState([]);
 
     const fetchProduct = async() => {
         try {
             const response = await fetch('https://dummyjson.com/products');
             const result = await response.json();
+            setData(result);
         } catch (error) {
             console.log('Network is slow');   
         }
@@ -18,7 +19,13 @@ const FetchData = () => {
 
     return (
         <div>
-
+            {data.map((itm) => {
+                return (
+                    <div>
+                        <p>{itm}</p>
+                    </div>
+                )
+            })}
         </div>
     )
 }
