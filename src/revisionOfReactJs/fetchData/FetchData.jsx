@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 const FetchData = () => {
 
 
@@ -8,8 +10,12 @@ const FetchData = () => {
         } catch (error) {
             console.log('Network is slow');   
         }
-
     }
+
+    useEffect(() => {
+        fetchProduct();
+    },[])
+
     return (
         <div>
 
