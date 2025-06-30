@@ -1,4 +1,5 @@
 import FetchData from "./fetchData/FetchData";
+import ChildForPassingProps from "./passingProps/child";
 import Greeting from "./props/Greeting";
 import ReactMemo from "./reactMemo/ReactMemo";
 import TabComponents from "./tabComponent/Tab";
@@ -22,6 +23,7 @@ const RevisionOfReact = () => {
             <MakeTable />
             <TableOfTwo />
             <FetchData />
+            <ChildForPassingProps />
         </>
     )
 }
