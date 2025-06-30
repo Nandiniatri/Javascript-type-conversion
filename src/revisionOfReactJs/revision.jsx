@@ -23,7 +23,7 @@ const RevisionOfReact = () => {
             <MakeTable />
             <TableOfTwo />
             <FetchData />
-            <ChildForPassingProps />
+            <ChildForPassingProps name={name} />
         </>
     )
 }
