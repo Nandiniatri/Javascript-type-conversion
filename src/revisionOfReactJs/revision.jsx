@@ -9,6 +9,7 @@ import Counter from "./useState/Counter";
 
 const RevisionOfReact = () => {
     const title = 'Nandini';
+    const name = 'Sundari';
 
     return (
         <>
