@@ -7,3 +7,4 @@ const ChildForPassingProps = ({name}) => {
 }
 
 export default ChildForPassingProps;
+
