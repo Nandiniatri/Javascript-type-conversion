@@ -18,7 +18,6 @@ const FetchData = () => {
         fetchProduct();
     },[])
 
-
     console.log(data);
     
     return (
