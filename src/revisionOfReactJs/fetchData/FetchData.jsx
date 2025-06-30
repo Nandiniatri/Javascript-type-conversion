@@ -26,6 +26,7 @@ const FetchData = () => {
                 return (
                     <div key={itm.id}>
                         <p>{itm.title}</p>
+                        
                     </div>
                 )
             })}
