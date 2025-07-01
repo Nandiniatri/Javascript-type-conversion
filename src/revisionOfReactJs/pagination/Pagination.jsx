@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const PaginatedList = () => {
@@ -7,7 +8,7 @@ const PaginatedList = () => {
 
     const fetchData = async (pageNumber) => {
         try {
-            const response = await fetch(`https://reqres.in/api/users?page=${pageNumber}`);
+            const response = await axios.get(`https://reqres.in/api/users?page=${pageNumber}`);
             setData(response.data.data);
             setTotalPages(response.data.total_pages);
         } catch (error) {
