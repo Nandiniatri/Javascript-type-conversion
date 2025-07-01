@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Counter = () => {
+const CounterFile = () => {
     const [count , setCount] = useState(0);
 
     const handlePlus = () => {
@@ -20,4 +20,4 @@ const Counter = () => {
     )
 }
 
-export default Counter;
+export default CounterFile;

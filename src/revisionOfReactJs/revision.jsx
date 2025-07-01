@@ -1,3 +1,4 @@
+import CounterFile from "./counterFile/Counter";
 import FetchData from "./fetchData/FetchData";
 import ChildForPassingProps from "./passingProps/child";
 import Greeting from "./props/Greeting";
@@ -24,6 +25,7 @@ const RevisionOfReact = () => {
             <TableOfTwo />
             <FetchData />
             <ChildForPassingProps name={name} title={title} />
+            <CounterFile />
         </>
     )
 }
