@@ -7,16 +7,20 @@ const TodoApp = () => {
         const fetchData = async() => {
             const response = await fetch('https://dummyjson.com/todos');
             const result = await response.json();
-            console.log(result);
+            console.log(result.todos);
+            setList(result.todos)
         }
 
         fetchData();
-        // setList(result)
     }, [])
 
     return (
         <div>
-
+            {list.map((item) => {
+                return (
+                    <h3>{item.todo}</h3>
+                )
+            })}
         </div>
     )
 }
