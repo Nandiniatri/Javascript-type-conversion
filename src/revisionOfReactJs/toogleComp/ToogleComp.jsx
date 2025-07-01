@@ -4,7 +4,7 @@ const ToogleButton = () => {
     const [show, setShow] = useState(false);
 
     const handleShow = () => {
-        setShow(true);
+        setShow(!show);
     }
 
     return (
