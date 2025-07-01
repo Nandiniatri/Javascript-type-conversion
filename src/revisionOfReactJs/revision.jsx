@@ -6,6 +6,7 @@ import ReactMemo from "./reactMemo/ReactMemo";
 import TabComponents from "./tabComponent/Tab";
 import MakeTable from "./table/makeTable";
 import TableOfTwo from "./table/twoTable";
+import TodoApp from "./todoApp/TodoApp";
 import ToogleButton from "./toogleComp/ToogleComp";
 import Timer from "./useEffect/Timer";
 import Counter from "./useState/Counter";
@@ -28,6 +29,7 @@ const RevisionOfReact = () => {
             <ChildForPassingProps name={name} title={title} />
             <CounterFile />
             <ToogleButton />
+            <TodoApp />
         </>
     )
 }
