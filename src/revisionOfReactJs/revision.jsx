@@ -1,5 +1,6 @@
 import CounterFile from "./counterFile/Counter";
 import FetchData from "./fetchData/FetchData";
+import PaginatedList from "./pagination/Pagination";
 import ChildForPassingProps from "./passingProps/child";
 import Greeting from "./props/Greeting";
 import ReactMemo from "./reactMemo/ReactMemo";
@@ -30,6 +31,7 @@ const RevisionOfReact = () => {
             <CounterFile />
             <ToogleButton />
             <TodoApp />
+            <PaginatedList />
         </>
     )
 }
