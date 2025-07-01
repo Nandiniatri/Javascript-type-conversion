@@ -10,12 +10,12 @@ const Counter = () => {
     const handleMinus = () => {
 
     }
-    
+
     return (
         <div>
-            <button>+</button>
+            <button onClick={handlePlus}>+</button>
             {count}
-            <button>-</button>
+            <button onClick={handleMinus}>-</button>
         </div>
     )
 }
