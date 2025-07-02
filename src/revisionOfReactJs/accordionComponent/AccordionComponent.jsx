@@ -15,6 +15,10 @@ const Accordion = () => {
     {
       question: "What is state in React?",
       answer: "State is a built-in object to store dynamic data in a component."
+    },
+    {
+      question: "What is Props in React?",
+      answer: "Props is known as Properties. There work is to recieve a data Parent component to child component."
     }
   ];
 
