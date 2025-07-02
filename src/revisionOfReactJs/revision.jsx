@@ -1,3 +1,4 @@
+import Accordion from "./accordionComponent/AccordionComponent";
 import CounterFile from "./counterFile/Counter";
 import FetchData from "./fetchData/FetchData";
 import LoginForm from "./form/SimpleLoginFormValidation";
@@ -33,7 +34,8 @@ const RevisionOfReact = () => {
             {/* <ToogleButton /> */}
             {/* <TodoApp /> */}
             {/* <PaginatedList /> */}
-            <LoginForm />
+            {/* <LoginForm /> */}
+            <Accordion />
         </>
     )
 }
