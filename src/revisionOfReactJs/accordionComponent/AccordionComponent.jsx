@@ -33,7 +33,8 @@ const Accordion = () => {
               padding: "10px",
               background: "#f0f0f0",
               cursor: "pointer",
-              fontWeight: "bold"
+              fontWeight: "bold",
+              color:'red'
             }}
           >
             {item.question}
