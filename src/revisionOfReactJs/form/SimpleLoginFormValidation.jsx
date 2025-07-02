@@ -40,7 +40,10 @@ const LoginForm = () => {
     e.preventDefault();
     if (validate()) {
       alert("Login successful ✅");
+      setFormData({ email: "", password: "" });
+      setErrors({});
     }
+   
   };
 
   return (
