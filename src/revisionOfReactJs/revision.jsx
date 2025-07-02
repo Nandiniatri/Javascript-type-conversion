@@ -2,6 +2,7 @@ import Accordion from "./accordionComponent/AccordionComponent";
 import CounterFile from "./counterFile/Counter";
 import FetchData from "./fetchData/FetchData";
 import LoginForm from "./form/SimpleLoginFormValidation";
+import ImageGallary from "./imageGallery/ImageGallary";
 import PaginatedList from "./pagination/Pagination";
 import ChildForPassingProps from "./passingProps/child";
 import Greeting from "./props/Greeting";
@@ -36,6 +37,7 @@ const RevisionOfReact = () => {
             {/* <PaginatedList /> */}
             {/* <LoginForm /> */}
             {/* <Accordion /> */}
+            <ImageGallary />
         </>
     )
 }
