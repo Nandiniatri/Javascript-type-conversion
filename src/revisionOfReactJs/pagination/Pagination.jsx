@@ -8,9 +8,12 @@ const PaginatedList = () => {
 
     const fetchData = async (pageNumber) => {
         try {
-            const response = await axios.get(`https://reqres.in/api/users?page=${pageNumber}`);
-            setData(response.data.data);
-            setTotalPages(response.data.total_pages);
+            const response = await fetch(`https://dummyjson.com/users?page=${pageNumber}`);
+            console.log(response);
+            const result = await response.json();
+            console.log(result.users);
+            setData(result.users);
+            setTotalPages(result.data.total_pages);
         } catch (error) {
             console.error("Error fetching data", error);
         }
@@ -33,8 +36,8 @@ const PaginatedList = () => {
             <h2>Paginated API List</h2>
             {data.map((user) => (
                 <div key={user.id} style={{ border: "1px solid #ccc", padding: "10px", marginBottom: "10px" }}>
-                    <p><strong>{user.first_name} {user.last_name}</strong></p>
-                    <img src={user.avatar} alt={user.first_name} width="50" />
+                    <p><strong>{user.firstName} {user.lastName}</strong></p>
+                    <img src={user.image} width="50" />
                 </div>
             ))}
 
