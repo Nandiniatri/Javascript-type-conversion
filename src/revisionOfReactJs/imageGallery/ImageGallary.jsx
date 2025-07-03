@@ -16,7 +16,7 @@ const ImageGallary = () => {
     }
 
     const handlePrev = () => {
-
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + image.length) % image.length);
     }
 
     return (
