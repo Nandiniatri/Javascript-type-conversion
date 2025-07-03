@@ -37,7 +37,7 @@ const RevisionOfReact = () => {
             {/* <PaginatedList /> */}
             {/* <LoginForm /> */}
             {/* <Accordion /> */}
-            <ImageGallary />
+            {/* <ImageGallary /> */}
         </>
     )
 }
