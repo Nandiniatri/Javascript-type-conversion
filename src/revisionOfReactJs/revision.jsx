@@ -3,6 +3,7 @@ import CounterFile from "./counterFile/Counter";
 import FetchData from "./fetchData/FetchData";
 import LoginForm from "./form/SimpleLoginFormValidation";
 import ImageGallary from "./imageGallery/ImageGallary";
+import LetConstVar from "./let,const,var/LetConstVar";
 import PaginatedList from "./pagination/Pagination";
 import ChildForPassingProps from "./passingProps/child";
 import Greeting from "./props/Greeting";
@@ -38,6 +39,7 @@ const RevisionOfReact = () => {
             {/* <LoginForm /> */}
             {/* <Accordion /> */}
             {/* <ImageGallary /> */}
+            <LetConstVar />
         </>
     )
 }
