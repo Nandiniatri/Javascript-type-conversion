@@ -39,7 +39,7 @@ const RevisionOfReact = () => {
             {/* <LoginForm /> */}
             {/* <Accordion /> */}
             {/* <ImageGallary /> */}
-            <LetConstVar />
+            {/* <LetConstVar /> */}
         </>
     )
 }
