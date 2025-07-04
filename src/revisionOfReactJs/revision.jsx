@@ -1,5 +1,6 @@
 import Accordion from "./accordionComponent/AccordionComponent";
 import CounterFile from "./counterFile/Counter";
+import DebouncedSearchBar from "./debouncedSearchBar/DebouncedSearchBar";
 import FetchData from "./fetchData/FetchData";
 import LoginForm from "./form/SimpleLoginFormValidation";
 import ImageGallary from "./imageGallery/ImageGallary";
@@ -40,6 +41,7 @@ const RevisionOfReact = () => {
             {/* <Accordion /> */}
             {/* <ImageGallary /> */}
             {/* <LetConstVar /> */}
+            <DebouncedSearchBar />
         </>
     )
 }
