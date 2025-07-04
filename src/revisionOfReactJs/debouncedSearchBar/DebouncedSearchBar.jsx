@@ -1,7 +1,7 @@
 const DebouncedSearchBar = () => {
     return (
         <div>
-
+            
         </div>
     )
 }
