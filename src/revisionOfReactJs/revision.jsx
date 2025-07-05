@@ -41,7 +41,7 @@ const RevisionOfReact = () => {
             {/* <Accordion /> */}
             {/* <ImageGallary /> */}
             {/* <LetConstVar /> */}
-            <DebouncedSearchBar />
+            {/* <DebouncedSearchBar /> */}
         </>
     )
 }
