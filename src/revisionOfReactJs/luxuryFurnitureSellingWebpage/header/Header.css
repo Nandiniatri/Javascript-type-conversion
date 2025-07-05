@@ -1,5 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image-header-img {
+    /* border: solid; */
+    width: 50px;
+}
+
+nav {
+    /* border: solid; */
+    margin-right: 60vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.header-button-div {
+    /* border: solid; */
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.header-btn1,
+.header-btn2,
+.header-btn3 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.header-icon1,
+.header-icon2,
+.header-icon3 {
+    font-size: 20px;
 }
