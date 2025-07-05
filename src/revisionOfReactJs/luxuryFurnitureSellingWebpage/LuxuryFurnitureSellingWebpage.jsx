@@ -1,7 +1,7 @@
 const LuxuryFurnitureSellingWebpage = () => {
     return (
         <div>
-
+            
         </div>
     )
 }

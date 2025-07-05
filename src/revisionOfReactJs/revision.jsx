@@ -5,6 +5,7 @@ import FetchData from "./fetchData/FetchData";
 import LoginForm from "./form/SimpleLoginFormValidation";
 import ImageGallary from "./imageGallery/ImageGallary";
 import LetConstVar from "./let,const,var/LetConstVar";
+import LuxuryFurnitureSellingWebpage from "./luxuryFurnitureSellingWebpage/LuxuryFurnitureSellingWebpage";
 import PaginatedList from "./pagination/Pagination";
 import ChildForPassingProps from "./passingProps/child";
 import Greeting from "./props/Greeting";
@@ -23,7 +24,7 @@ const RevisionOfReact = () => {
 
     return (
         <>
-            <h1>Revision Of React Js</h1>
+            {/* <h1>Revision Of React Js</h1> */}
             {/* <ReactMemo /> */}
             {/* <TabComponents /> */}
             {/* <Counter /> */}
@@ -42,6 +43,7 @@ const RevisionOfReact = () => {
             {/* <ImageGallary /> */}
             {/* <LetConstVar /> */}
             {/* <DebouncedSearchBar /> */}
+            <LuxuryFurnitureSellingWebpage />
         </>
     )
 }
