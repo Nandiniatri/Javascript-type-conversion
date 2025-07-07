@@ -45,7 +45,7 @@ const RevisionOfReact = () => {
             {/* <LetConstVar /> */}
             {/* <DebouncedSearchBar /> */}
             {/* <LuxuryFurnitureSellingWebpage /> */}
-            <HtmlTag />
+            <HtmlTag /> 
         </>
     )
 }
