@@ -1,3 +1,5 @@
+import Button from "../component/Button";
+
 {/* <></> html tags  */ }
 
 
@@ -9,6 +11,7 @@ const HtmlTag = () => {
             <p>This is My Show</p>
             <img src="https://miro.medium.com/v2/resize:fit:960/1*o2QkJWlZWqtDa-g3luWT1Q.jpeg" alt="romotic-img" />
             <button>Hello My Name is Nandini</button>
+            <Button>Hello Dosto</Button>
         </>
     )
 }
