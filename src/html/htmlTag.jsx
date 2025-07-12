@@ -14,7 +14,8 @@ const HtmlTag = () => {
             <Button>Hello Dosto</Button>
             <nav>
                 <ul>
-                    <li></li>
+                    <li>Home</li>
+                    <li>Product</li>
                 </ul>
             </nav>
         </>
