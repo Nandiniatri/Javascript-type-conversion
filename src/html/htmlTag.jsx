@@ -18,6 +18,7 @@ const HtmlTag = () => {
                     <li>Product</li>
                     <li>About</li>
                     <li>Contact</li>
+                    <li>Help</li>
                 </ul>
             </nav>
         </>
