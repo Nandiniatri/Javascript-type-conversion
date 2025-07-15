@@ -1,4 +1,5 @@
 import HtmlTag from "../html/htmlTag";
+import FetchApis from "../reactRevision/Fetch";
 import Accordion from "./accordionComponent/AccordionComponent";
 import CounterFile from "./counterFile/Counter";
 import DebouncedSearchBar from "./debouncedSearchBar/DebouncedSearchBar";
@@ -46,6 +47,7 @@ const RevisionOfReact = () => {
             {/* <DebouncedSearchBar /> */}
             {/* <LuxuryFurnitureSellingWebpage /> */}
             {/* <HtmlTag />  */}
+            <FetchApis />
         </>
     )
 }
