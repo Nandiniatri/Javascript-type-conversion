@@ -5,7 +5,7 @@ const FetchApis = () => {
 
     const fetchProductApi = () => {
         try {
-            const response = fetch('');
+            const response = fetch('https://dummyjson.com/products');
             const result = response.json();
             setData(result);
         } catch (error) {
@@ -19,7 +19,7 @@ const FetchApis = () => {
 
     return (
         <div>
-            
+
         </div>
     )
 }
