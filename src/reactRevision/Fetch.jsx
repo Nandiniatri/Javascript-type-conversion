@@ -19,7 +19,15 @@ const FetchApis = () => {
 
     return (
         <div>
-
+            {data.map((item) => {
+                console.log(item);
+                
+                return (
+                    <div>
+                        
+                    </div>
+                )
+            })}
         </div>
     )
 }
