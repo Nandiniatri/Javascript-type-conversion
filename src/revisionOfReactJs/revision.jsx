@@ -1,4 +1,5 @@
 import HtmlTag from "../html/htmlTag";
+import AxiosData from "../reactRevision/Axios";
 import FetchApis from "../reactRevision/Fetch";
 import Accordion from "./accordionComponent/AccordionComponent";
 import CounterFile from "./counterFile/Counter";
@@ -47,7 +48,8 @@ const RevisionOfReact = () => {
             {/* <DebouncedSearchBar /> */}
             {/* <LuxuryFurnitureSellingWebpage /> */}
             {/* <HtmlTag />  */}
-            <FetchApis />
+            {/* <FetchApis /> */}
+            <AxiosData />
         </>
     )
 }
