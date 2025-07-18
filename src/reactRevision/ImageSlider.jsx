@@ -8,7 +8,7 @@ const imageData = [
 const ImageSlider = () => {
     return (
         <>
-        
+            
         </>
     )
 }
