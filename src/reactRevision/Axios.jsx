@@ -20,7 +20,7 @@ const AxiosData = () => {
             {data.map((item) => {
                 return (
                     <div>
-                        
+                        <p>{item.firstName}</p>
                     </div>
                 )
             })}
